@@ -1,0 +1,30 @@
+测试办法
+首先执行
+javac *.java 编译代码
+然后把老师给的6个config.txt文件复制到代码目录下,
+然后再开6个终端窗口
+在第1个终端窗口里执行
+java  Lsr A 5000 configA.txt 
+
+在第2个终端窗口里执行
+java  Lsr B 5001 configB.txt 
+
+在第3个终端窗口里执行
+java  Lsr C 5002 configC.txt 
+
+在第4个终端窗口里执行
+java  Lsr D 5003 configD.txt 
+
+在第5个终端窗口里执行
+java  Lsr E 5004 configE.txt 
+
+在第6个终端窗口里执行
+java  Lsr F 5005 configF.txt 
+
+然后每隔30秒每个窗口会自动显示当前的单源最短路径,
+和老师给的结果比对即可
+
+如果无误,在第4个窗口里输入quit然后回车
+即可关闭D节点
+然后重新观察其他节点的输出结果,和老师给的答案对照即可
+
