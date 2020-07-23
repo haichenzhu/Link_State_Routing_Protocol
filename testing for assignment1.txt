@@ -1,5 +1,5 @@
-firstly compile all java file
-then, in 6 terminal windows execute the following command separately
+firstly compile all java file,
+then, in 6 terminal windows execute the following command separately,
 java  Lsr A 5000 configA.txt 
 java  Lsr B 5001 configB.txt 
 java  Lsr C 5002 configC.txt 
@@ -7,6 +7,6 @@ java  Lsr D 5003 configD.txt
 java  Lsr E 5004 configE.txt
 java  Lsr F 5005 configF.txt 
 
-Now, the shortest path will be displayed in these terminal windows
-for testing, shortdown some of these routers by $quit and check the outcomes
+Now, the shortest path will be displayed in these terminal windows,
+for testing, shortdown some of these routers by $quit and check the outcomes.
 
